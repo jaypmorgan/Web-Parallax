@@ -1,38 +1,62 @@
 body {
 	width:100%;
 	height:100%;
-	background-image: url('http://wastedseconds.com/wp-content/uploads/2013/10/website-background-23.jpg');
+	background-image: url('../images/background-01.png');
+	overflow: hidden;
 	left:0%;
 	top:0%;
 	margin-left:0px;
 	
 background-size: cover;
-background-repeat:repeat;
 
-}
-
-#landing { 
 }
 
 #wrapper {
 	position:absolute;
 	width:300px;
-	height:200px;
-	top:40%;
-	left:40%;
-	border:1px solid black;
-	background-color: #000;
-
+	height:220px;
+	top:20%;
+	left:50%;
+	margin-left:-160px;
+	background-image: url('../images/wrapper-01.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
 	padding:20px;
 }
 
-#node { 
-	position:absolute;
+.node { 
+	position:relative;
 	width:280px;
-	height:50px;
+	height:40px;
 	margin-bottom:15px;
-	left:41.5%;
-	top:41%;
-	border:1px solid black;
-	background-color: #fff;
+	padding:10px;
+	left:5%;
+	top:5%;
+	background-image: url('../images/node-01.png');
+	background-repeat: no-repeat;
+}
+
+.selected { 
+	position:relative;
+	width:280px;
+	height:40px;
+	margin-bottom:15px;
+	padding:10px;
+	left:5%;
+	top:5%;
+	background-image: url('../images/node-selected-01.png');
+	background-repeat: no-repeat;
+}
+
+#footer { 
+	position:fixed;
+	width:200%;
+	height:35%;
+	left:0%;
+	top:70%;
+	margin-left:0px;
+	background-repeat: no-repeat;
+	background-size:55%;
+	overflow: hidden;
+	background-image: url('../images/background_trees-01.png');
 }
