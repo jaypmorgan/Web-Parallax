@@ -90,6 +90,9 @@ $(document).ready(function(){
         });
       } else { 
          window.ondevicemotion = function (event) { 
+            var x = 0;
+            var y = 0;
+            
             x = event.acceleration.x;
             y = event.acceleration.y;
 
